@@ -142,6 +142,7 @@ h2 {
 .contaier {
     margin: 3%;
     position: relative;
+    display: flex;
 }
 
 .verify {
@@ -150,22 +151,39 @@ h2 {
 }
 
 .Rediger {
-  position: absolute;
-  top: 45%;
-  left: 35%;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   font-size: 25px;
 }
 
 .Anmeldelser {
     position: absolute;
-  top: 54%;
-  left: 35%;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   font-size: 25px;
 }
 
 .Nemid {
-    position: absolute;
-  top: 63%;
-  left: 32%;
+  top: 69%;
   font-size: 25px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 414px) {
+.Rediger {
+    top: 47%;
+}
+
+.Anmeldelser {
+    top: 56%;
+}
+
+.Nemid {
+    top: 65%;
+}
+  }
