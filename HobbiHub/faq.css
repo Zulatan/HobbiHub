@@ -184,3 +184,9 @@ footer .facebook,.instagram{
     margin-right: 30px;
     float: right;
 }
+
+@media only screen and (min-width:1000px){
+    header{
+        justify-content: space-evenly;
+    }
+}
