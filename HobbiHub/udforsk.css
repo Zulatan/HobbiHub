@@ -198,3 +198,66 @@ footer .facebook,.instagram{
   margin-right: 30px;
   float: right;
 }
+
+@media only screen and (min-width: 800px) {
+
+  .center{
+    width: 500px;
+}
+
+  .textbox{
+    width: 500px;
+    height: 70px;
+  }
+
+  h2{
+    stroke-width: 0.1;
+    font-size: 1.5vw;
+    margin-top: 27px ;
+    margin-left: 5px;
+  }
+
+  .buttonContact {
+    margin-left: 168px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    font-size: 1.5vw; 
+  }
+
+  h3{
+    font-size: 1.5vw;
+    margin-top: -31px ;
+    margin-left: 430px;
+  }
+
+  
+.savelogo{
+  margin-left: 155px;
+  margin-top: 27px ;
+  }
+
+  h1{
+    font-size:6vw;
+  }
+
+  .accountbutton{
+    margin-left: 1150px;
+    margin-top: -43px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .dropbtn {
+    font-size: 15px;
+    margin-left: 1200px;
+    margin-top: -40px;
+  }
+
+  .dropdown-content {
+    margin-left: 1190px;
+    margin-top: -10px;
+  }
+
+}
+
+
