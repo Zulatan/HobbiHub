@@ -142,7 +142,6 @@ h2 {
 .contaier {
     margin: 3%;
     position: relative;
-    display: flex;
 }
 
 .verify {
